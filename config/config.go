@@ -3,6 +3,7 @@ package config
 import (
 	"bwhNotify/util"
 	"fmt"
+
 	"github.com/jinzhu/configor"
 )
 

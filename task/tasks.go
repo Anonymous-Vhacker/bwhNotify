@@ -3,8 +3,9 @@ package task
 import (
 	"bwhNotify/logger"
 	"bwhNotify/util"
-	"github.com/robfig/cron/v3"
 	"sync"
+
+	"github.com/robfig/cron/v3"
 )
 
 type Tasker struct {
