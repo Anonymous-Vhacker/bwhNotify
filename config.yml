@@ -1,0 +1,13 @@
+# 搬瓦工VPS信息
+BWHosts:
+  -
+    veid: <veid of your vps_1>
+    apiKey: <api_key of your vps_1>
+  -
+    veid: <veid of your vps_2>
+    apiKey: <api_key of your vps_2>
+  # ...还可以添加多个VPS信息...
+# 钉钉机器人信息
+DingTalk:
+  accessToken: <钉钉机器人的access token>
+  secret: <钉钉机器人的密钥，如果启用了加签则需要，否则留空>
