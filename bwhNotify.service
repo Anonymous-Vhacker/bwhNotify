@@ -1,0 +1,15 @@
+[Unit]
+Description=banwagon status notify service
+After=network.target syslog.target multi-user.target
+Wants=network.target
+
+[Service]
+WorkingDirectory=/usr/local/bwhNotify
+Type=simple
+ExecStart=/usr/local/bwhNotify/bwhNotify -c /usr/local/bwhNotify/config.yml
+Restart=always
+RestartSec=10s
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
