@@ -39,6 +39,8 @@
 
 3. 系统服务
 
+   需要将`bwhNotify`和`config.yml`放在/usr/local/bwhNotify/
+
    ```bash
    sudo cp bwhNotify.service /lib/systemd/system/
    sudo systemctl start bwhNotify.service
